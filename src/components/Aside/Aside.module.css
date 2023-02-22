@@ -1,0 +1,15 @@
+.menu {
+  grid-area: a;
+  background-color: lightsteelblue;
+}
+
+.logo {
+  display: block;
+
+  height: 100%;
+  padding: 5px 0;
+}
+
+.item {
+  color: white;
+}
