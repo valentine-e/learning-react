@@ -3,7 +3,7 @@ import s from "./Profile.module.css";
 
 const Profile = () => {
   return (
-    <main className={s.content}>
+    <main>
       Main
       <div>
         <h1>Name</h1>
