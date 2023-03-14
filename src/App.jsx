@@ -12,11 +12,11 @@ const App = () => {
       <Aside />
       <div className="main-content">
         <Routes>
-          <Route path="/Profile" element={<Profile />} />
-          <Route path="/Dialogs" element={<Dialogs />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/dialogs" element={<Dialogs />} />
         </Routes>
-        <NavLink to="/Profile">Profile</NavLink>
-        <NavLink to="/Dialogs">Dialogs</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
+        <NavLink to="/dialogs">Dialogs</NavLink>
       </div>
     </div>
   );
